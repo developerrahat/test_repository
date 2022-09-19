@@ -1,0 +1,369 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+      /* header dropdown */
+      .header-menu li ul {
+         top: 0%;
+      }
+      .header-menu li:hover ul{
+         top:100%;
+         z-index: 9;
+     }
+   .totop {
+      border-radius: 15px 0 15px 0;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      font-size: 18px;
+   }
+   .maxon-header {
+      background: #fff;
+      padding: 0px 0;
+   }
+   .openMenu i {
+      font-size: 1.5rem;
+   }
+   .logo{
+      width: 85px;
+   }
+    /* banner media css start */
+    .banner-area {
+      padding: 10px 0;
+  }
+  .banner-text{
+     padding: 40px 0;
+  }
+  .banner-text h1 {
+	font-size: 28px;
+}
+ /* banner media css end */
+    .img-position {
+      position: inherit;
+      top: inherit;
+      left: inherit;
+      transform: inherit;
+      width: inherit;
+      max-width: inherit;
+  }
+ .sm-none{
+    display: none;
+ }
+/* about media css */
+.about-maxon {
+	padding: 30px 0;
+}
+ .about-big-img img {
+    margin-top: 0;
+ }
+ .about-big-img {
+    margin-top: 0;
+    margin-bottom: 20px;
+ }
+ .about-small-img h2 {
+	font-size: 32px;	
+}
+ .about-title-pad {
+    margin-top: 40px;
+    padding-right:0;
+    padding-left:10px;
+ }
+ .about-title {
+	margin-bottom: 0px;
+}
+.default-title {
+	font-size: 12px;
+}
+ .about-title h1 {
+	font-size: 26px;
+}
+.p-bold {
+	font-size: 18px !important;
+	
+}
+ /* feature media css */
+ .features-maxon {
+    padding: 35px 0;
+ }
+
+ /* client work media css */
+ .max-w {
+    max-width:inherit;
+ }
+ .default-subhead {
+	font-size: 23px;
+}
+
+ /* client testimonial media css */
+ .maxon-testimonial {
+	padding: 50px 0;
+}
+ .max-w-test {
+    padding: 50px 20px;
+ }
+
+ .bio p {
+	font-size: 16px;
+}
+ /* our team media css */
+ .team-inner img{
+    width: 100%;
+ }
+
+
+ /* latest news media css */
+ .latest-news {
+    padding: 50px 0;
+ }
+ .news-text {
+	padding: 23px;
+}
+
+ .logo-img {
+    margin: 0px;
+ }
+ .logo-img {
+	padding: 0px 10px;
+}
+
+ .contact-form {
+	padding: 16px 0;
+}
+/* counter media css */
+.count-item {
+   margin-top: 20px;
+   padding: 5px 40px;
+}
+.counter-maxon {
+	padding: 0;
+}
+.count-no p span {
+	margin-right: 0px;
+	font-size: 45px;
+}
+.count-no p {
+	font-size: 20px;
+	color: #fff;
+}
+
+.contact-me .custom-info {
+	height: 50px;
+	margin-top: 10px;
+}
+.c-message {
+	margin-top: 10px;
+}
+
+.footer-top {
+	padding: 30px 0;
+}
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+      /* header dropdown */
+      .header-menu li ul {
+         top: 0%;
+      }
+      .header-menu li:hover ul{
+         top:100%;
+         z-index: 9;
+     }
+     /* banner media css start */
+     .banner-area {
+        padding: 10px 0;
+    }
+    .banner-text{
+       padding: 40px 0;
+    }
+       .banner-text h1 {
+        font-size:36px;
+    }
+   /* banner media css end */
+      .img-position {
+        position: inherit;
+        top: inherit;
+        left: inherit;
+        transform: inherit;
+        width: inherit;
+        max-width: inherit;
+    }
+   .sm-none{
+      display: none;
+   }
+
+   .about-maxon {
+      padding-bottom: 30px;
+   }
+   .about-big-img img {
+      margin-top: 0;
+   }
+   .about-big-img {
+      margin-top: 0;
+      margin-bottom: 20px;
+   }
+   .about-title-pad {
+      margin-top: 40px;
+      padding-right: 60px;
+      padding-left: 60px;
+   }
+
+   /* feature media css */
+   .features-maxon {
+      padding: 35px 0;
+   }
+
+   /* client work media css */
+   .max-w {
+      max-width:inherit;
+   }
+
+   /* client testimonial media css */
+   .max-w-test {
+      padding: 50px 20px;
+   }
+
+   /* our team media css */
+   .team-inner img{
+      width: 100%;
+   }
+
+   /* latest news media css */
+   .latest-news {
+      padding: 50px 0;
+   }
+   .news-text {
+      padding: 50px;
+   }
+
+   .logo-img {
+      margin: 0px;
+      
+   }
+
+   .contact-form {
+      padding: 50px 0;
+   }
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   /* header dropdown */
+   .header-menu li ul {
+      top: 0%;
+   }
+   .header-menu li:hover ul{
+      top:100%;
+      z-index: 9;
+  }
+   /* banner media css start */
+   .banner-area {
+	padding: 20px 0;
+}
+   .banner-text h1 {
+	font-size: 36px;
+}
+   /* banner media css end */
+   /* about media css start */
+   .about-maxon {
+	padding-top: 100px;
+    padding-bottom: 30px;
+}
+.about-title-pad {
+	padding-right: 101px;
+	padding-left: 100px;
+	margin-top: 125px;
+}
+
+/* work media css */
+ /* latest news media css */
+ .news-text span {
+	font-size: 12px !important;
+}
+.news-text span {
+	padding-right: 6px;
+}
+.date-time {
+	padding-left: 10px;
+}
+
+.logo-img {
+	margin: 10px;
+	padding: 0 20px;
+}
+
+ }
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   /* banner media css start */
+   .banner-text h1 {
+	font-size: 60px;
+}
+   /* banner media css end */
+   /* about media css start */
+   .about-small-img h2 {
+	font-size: 38px;
+	
+}
+
+.about-title-pad{
+    padding-right: 150px;
+    padding-left: 60px;
+}
+.about-title h1{
+    font-size: 42px;
+}
+   /* about media css end */
+
+   /* latest news media css */
+   .news-text{
+    padding: 30px;
+}
+
+/* feature media css start */
+.feature-item {
+	padding: 25px;
+
+}
+/* feature media css end */
+
+
+
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    /* banner media css start */
+   .banner-text h1 {
+	font-size: 60px;
+}
+   /* banner media css end */
+      /* about media css start */
+      .about-small-img h2 {
+        font-size: 38px;
+        
+    }
+    
+    .about-title-pad{
+        padding-right: 150px;
+        padding-left: 60px;
+    }
+    .about-title h1{
+        font-size: 42px;
+    }
+       /* about media css end */
+    
+       /* latest news media css */
+       .news-text{
+        padding: 30px;
+    }
+ }
